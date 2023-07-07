@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+allure-pytest = "*"
+selenium = "~=4.0.0"
+python-dotenv = "~=0.19.0"
+pytest = "~=6.2.5"
+Faker = "~=9.9.1"
+webdriver-manager = "*"
+pytest-xdist = "*"
+pytest-order = "*"
+essential_generators = "*"
+flask = "*"
+
+[dev-packages]
+pre-commit = "==2.13.0"
+pytest = "*"
+python-dotenv = "*"
+
+[requires]
+python_version = "3.9"
